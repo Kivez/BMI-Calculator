@@ -3,7 +3,7 @@ public class BMI {
     public static void main(String[] args){
         try (Scanner scanner = new Scanner(System.in)) {
             double height, weight;
-            System.out.print("Please enter your height in m : ");
+            System.out.print("Please enter your height in meters : ");
             if (scanner.hasNextDouble()) {
                 height = scanner.nextDouble();
             } else {
@@ -11,7 +11,7 @@ public class BMI {
                 return;
             }
 
-            System.out.print("Please enter your weight in kg : ");
+            System.out.print("Please enter your weight in kilograms : ");
             if (scanner.hasNextDouble()) {
                 weight = scanner.nextDouble();
             } else {
@@ -51,3 +51,4 @@ public class BMI {
     }
     
 }
+
