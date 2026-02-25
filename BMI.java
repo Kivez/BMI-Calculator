@@ -31,7 +31,6 @@ public class BMI {
                 status = "You are underweight, you need to gain ";
                 lose_Gain = lowNormal - weight;
             } else if (bmi >= 18.5 && bmi <= 25) {
-                status = "Your weight is normal";
                 System.out.printf("Your BMI is %.2f\n", bmi);
                 System.out.println("Your weight is normal");
                 return;
