@@ -49,6 +49,6 @@ public class BMI {
             System.out.printf(status + "%.2f kgs", lose_Gain);
         }   
     }
-    
 }
+
 
