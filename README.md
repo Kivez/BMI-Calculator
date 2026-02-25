@@ -1,6 +1,6 @@
 # BMI-Calculator
 
-A Java program that calculates BMI based on height (meters) and weight (kilograms), determining the specific weight adjustment needed to reach a normal BMI range.
+A Java program that calculates your BMI based on your height (in meters) and weight (in kilograms), and tells you how much weight you need to lose or gain to reach a healthy range.
 
 ##  Features
 * **Input Validation:** Uses `scanner.hasNextDouble()` to prevent program crashes if the user enters non-numeric data.
